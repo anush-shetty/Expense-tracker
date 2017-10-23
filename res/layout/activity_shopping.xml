@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/amount1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/amount2"
+        android:layout_below="@+id/newact"
+        android:ems="10"
+        android:hint="@string/clothes"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/amount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/amount1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/food"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/amount3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/amount2"
+        android:layout_below="@+id/amount2"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/others"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="@string/display" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="43dp"
+        android:text="@string/calculate" />
+
+    <EditText
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/calculate"
+        android:ems="10"
+        android:hint="@string/press" />
+
+    <Button
+        android:id="@+id/newact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/entertainment_" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newact"
+        android:layout_alignBottom="@+id/newact"
+        android:layout_alignParentLeft="true"
+        android:text="@string/shopping_details"/>
+
+</RelativeLayout>

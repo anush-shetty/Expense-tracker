@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/sub"
+        android:layout_alignParentRight="true"
+        android:height="40dp"
+        android:text="   " />
+
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:height="40dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="46dp"
+        android:text="@string/total_income"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="48dp"
+        android:text="@string/income_expense"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shopres"
+        android:layout_alignRight="@+id/textView6"
+        android:text="@string/total_shopping"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shopres"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="24dp"
+        android:text="@string/total_entertainment"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/edures"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/entres"
+        android:layout_alignLeft="@+id/entres"
+        android:layout_alignRight="@+id/entres"
+        android:layout_marginBottom="23dp"
+        android:height="40dp"
+        android:text="  " />
+
+    <TextView
+        android:id="@+id/entres"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/result"
+        android:height="40dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/shopres"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/homeres"
+        android:layout_alignLeft="@+id/homeres"
+        android:layout_alignRight="@+id/entres"
+        android:height="40dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edures"
+        android:layout_alignParentLeft="true"
+        android:text="@string/total_education_health"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edures"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:height="100dp"
+        android:text="@string/get_notifications"
+        android:width="200dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/sub"
+        android:height="100dp"
+        android:text="@string/optimize_expense"
+        android:width="200dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/homeres"
+        android:text="@string/total_home_utilities"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/homeres"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/result"
+        android:layout_centerVertical="true"
+        android:height="40dp"
+        android:text=" " />
+
+</RelativeLayout>
